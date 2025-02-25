@@ -6,7 +6,7 @@ import barb from "../../Assets/Projects/leaf.png";
 import memory from "../../Assets/Projects/emotion.png";
 import taxes from "../../Assets/Projects/codeEditor.png";
 import store from "../../Assets/Projects/chatify.png";
-import ecom from "../../Assets/Projects/suicide.png";
+import ecom from "../../Assets/Projects/store.png";
 import aspoblog from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -80,7 +80,7 @@ function Projects() {
             <ProjectCard
               imgPath={memory}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
+              title="Memory Game"
               description="Memory card game, flip the cards and try to find out. Made with Typescript, React and Vite."
               ghLink="https://github.com/JABAGAMEHUNTER/memory_game"
               demoLink="https://memory-game-ten-psi.vercel.app/"
